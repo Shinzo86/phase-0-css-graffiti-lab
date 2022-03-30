@@ -1,1 +1,29 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+  }
+
+body #wall #tag-2{
+    background-image:none;
+}
+
+#wall #tag-3.slick.wicked{
+    background-image: none;
+}
+
+#wall .parent #tag-4{
+    background-image: none;
+}
+
+#wall > div:nth-child(5){
+    background-image: none;
+    display: none;
+}
+
+#wall > div:nth-child(6) > div:nth-child(2){
+    display: none;
+}
+
+#wall > div:nth-child(7) > div:nth-child(1){
+    display: none;
+}
